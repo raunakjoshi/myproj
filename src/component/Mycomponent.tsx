@@ -15,7 +15,7 @@ const MyComponent: React.FC = () => {
     isActive: true,
   };
 
-  const myFunction: MyFunction = (param1, param2) => {
+  const myFunction: MyFunction = (param1: String, param2: String) => {
     const result: MyObject = {
       name: param1,
       age: param2,
